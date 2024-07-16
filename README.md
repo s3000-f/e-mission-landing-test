@@ -1,6 +1,5 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Basic Landing Page Test using Nuxt 3
+This is a very simple Landing Page implemented as a sample for E-Mission Gmbh interview process.
 
 ## Setup
 
