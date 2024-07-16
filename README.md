@@ -1,6 +1,7 @@
 # Basic Landing Page Test using Nuxt 3
 This is a very simple Landing Page implemented as a sample for E-Mission Gmbh interview process.
 
+Demo available on [Vercel](https://e-mission-landing-test.vercel.app/)
 ## Setup
 
 Make sure to install the dependencies:
