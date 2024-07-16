@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: e-mission-landing
+  namespace: e-mission-landing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: e-mission-landing
+  template:
+    metadata:
+      labels:
+        app: e-mission-landing
+    spec:
+      containers:
+        - name: e-mission-landing
+          image: <USERNAME-GOES-HERE>/e-mission-landing:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: HOST
+              value: "0.0.0.0"
+            - name: PORT
+              value: "3000"
