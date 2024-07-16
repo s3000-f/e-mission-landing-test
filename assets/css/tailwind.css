@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-body{
+    max-width: 1440px;
+}
+
+.button-teal {
+    @apply px-6 py-2 bg-teal-400 text-white rounded-lg  transition duration-300 hover:bg-teal-200;
+    font-family: Poppins;
+}
+.button-blue {
+    @apply px-6 py-2 bg-neutral-darkBlue text-white rounded-lg  transition duration-300;
+    font-family: Poppins;
+}
+
+.btn-hover {
+    @apply lg:hover:bg-opacity-50 transition duration-200;
+}
+
+* {
+    font-family: Poppins;
+}
+.border-primary-cyan {
+    --tw-border-opacity: 1;
+    border-color: hsl(180 66% 49% / var(--tw-border-opacity)) /* #2acfcf */;
+}
+.bg-primary-cyan {
+    --tw-bg-opacity: 1;
+    background-color: hsl(180 66% 49% / var(--tw-bg-opacity)) /* #2acfcf */;
+}
+
+.bg-neutral-darkBlue {
+    --tw-bg-opacity: 1;
+    background-color: hsl(255 11% 22% / var(--tw-bg-opacity)) /* #35323e */;
+}
+.text-neutral-grayishViolet {
+    --tw-text-opacity: 1;
+    color: hsl(257 7% 63% / var(--tw-text-opacity)) /* #9e9aa7 */;
+}
+
+.bg-neutral-grayTwo {
+    --tw-bg-opacity: 1;
+    background-color: hsl(230 25% 95% / var(--tw-bg-opacity)) /* #eff0f5 */;
+}
+
+.bg-neutral-gray {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0 0% 75% / var(--tw-bg-opacity)) /* #bfbfbf */;
+}
+
+.bg-primary-darkVoilet {
+    --tw-bg-opacity: 1;
+    background-color: hsl(257 27% 26% / var(--tw-bg-opacity)) /* #3b3054 */;
+}
